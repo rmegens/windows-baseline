@@ -1,0 +1,45 @@
+# CIS Baseline Compliance test
+# Platform : Windows / Linux / xxxx
+# date : xx/xx/xxxx
+# version : 0.1
+
+control 'control id name and or number' do
+  impact [1.0,0.5]
+  title 'Title of the compliancy rule here'
+  desc "Description .....
+  .......
+  .......
+  "
+
+  describe [resource_name] do
+    [check something]
+  end
+end
+
+# Transform from xlsx to automated tests
+# column        name
+#   A       section
+#   B       recommendation
+#   C       title
+#   D       status
+#   E       scoring status
+#   F       description
+#   G       rationale statement
+#   H       remediation procedure
+#   I       audit procedure
+#   J       impact statement
+#   K       notes
+#   L       CIS controls
+#   M       CCE-ID
+#   N       references
+
+Per chapter (1-9)
+
+title 'C'
+desc 'F'
+
+control 'A.B' do
+  title 'C'
+  desc 'F'
+  desc 'I'
+end
